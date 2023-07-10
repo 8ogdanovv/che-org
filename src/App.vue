@@ -27,10 +27,9 @@ export default {
     FooterView
   },
   data() {
-  return {
-    // activeColor: 'red',
-  }
-},
+    return {
+    }
+  },
   methods: {
   },
   mounted() {
@@ -44,8 +43,6 @@ export default {
     <HeroZone />
     <AboutMe />
     <WhatIDo />
-    <!-- <WhatIDo :color="activeColor" /> -->
-    <!-- <WhatIDo :color="`blue`" /> -->
     <MyFolio />
     <TestedView />
     <GetInTouch />
@@ -54,7 +51,3 @@ export default {
     <FooterView />
   </div>
 </template>
-
-<style>
-
-</style>
